@@ -18,7 +18,7 @@ def main():
 
     print(f"Loaded maze {maze_file} (size {maze.width}x{maze.height})")
     print(f"Start: {maze.start}, End: {maze.end}")
-    print(f"Robot at {robot.get_position()}")
+    print(f"Rbot at {robot.get_position()}")
     print("Enter moves: up/down/left/right, or 'q' to quit.")
     print(maze.render_ascii(robot.get_position()))
 
